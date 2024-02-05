@@ -43,7 +43,8 @@ That's when the power of data visualization becomes more useful and shines than 
 <a name="install"></a>
 ### 4. Install
 You can open the terminal on your IDE and clone the repo: 
-https://github.com/phamvutuyetanh/Consumption-Observation_And_Analysis_by_Visualization.git
+
+` https://github.com/phamvutuyetanh/Consumption-Observation_And_Analysis_by_Visualization.git `
 
 <a name="Techniques"></a>
 ## II. Techniques
@@ -55,6 +56,8 @@ https://github.com/phamvutuyetanh/Consumption-Observation_And_Analysis_by_Visual
 
 <a name="Dashboard"></a>
 ## III. Dashboard
+Here, I use PowerBI to create the draft of dashboard. The overall structure of dashboard seem like: 
+
 
 <a name="Charts"></a>
 ## IV. Charts
