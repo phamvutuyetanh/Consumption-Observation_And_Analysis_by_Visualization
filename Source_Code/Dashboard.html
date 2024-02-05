@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sale</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+ 
+  <link rel="stylesheet" href="css/style.css" />
+  <link type="text/css" href="css/leaflet.css" rel="stylesheet"/>
+  <link type="text/css" href="css/MarkerCluster.Default.css" rel="stylesheet"/>
+  <link type="text/css" href="css/MarkerCluster.css" rel="stylesheet"/>
+  <link type="text/css" href="css/dc.css" rel="stylesheet"/>
+  <link type="text/css" href="css/leaflet-legend.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="js/crossfilter.js"></script>
+  <script type="text/javascript" src="js/dc.js"></script>
+  <script type="text/javascript" src="js/leaflet.js"></script>
+  <script src="js/colorbrewer.js"></script>
+  <script type="text/javascript" src="js/leaflet.markercluster.js"></script>
+  <script type="text/javascript" src="js/dc.leaflet.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+  <div>
+   <div class="container">
+       <aside>
+           
+         <div class="top">
+           <div class="logo">
+             <h2> <span class="danger">Table of contents</span> </h2>
+           </div>
+           <div class="close" id="close_btn">
+            <span class="material-symbols-sharp">
+              close
+              </span>
+           </div>
+         </div>
+          <!-- end top -->
+           <div class="sidebar">
+
+            <a href="#" class="active">
+              <span class="material-symbols-sharp">grid_view </span>
+              <h3>Dashboard</h3>
+           </a>
+
+           <a href="https://mphcmiuedu-my.sharepoint.com/:w:/g/personal/itdsiu21073_student_hcmiu_edu_vn/EdaOAR064PhNq6gcDbtC1OEB5qRVFt44kG5BWW44_cn-JQ?rtime=9OqZYOcM3Eg"target="_blank">
+              <span class="material-symbols-sharp">description </span>
+              <h3>Reports</h3>
+           </a>
+           <a href="https://github.com/daibacgantay/consumption-in-business"target="_blank">
+            <span class="fa fa-github"></span>
+              <h3>Github</h3>
+           </a>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">logout </span>
+              <h3>logout</h3>
+           </a>
+             
+
+
+          </div>
+
+      </aside> 
+
+      <main>
+        <div id="tieude">
+          <h1>Dashboard </h1>
+        </div>        
+           
+         
+          
+
+        <div class="insights" >
+
+           <!-- start seling -->
+            <div class="sales">
+              <logo class="material-symbols-sharp" >  
+                monetization_on
+              </logo>
+               <!-- <div class="middle"> -->
+
+              <div class="title_" id = "namesale">
+                   Total Sales
+              </div>
+              <div class="number_" id = "salenum">
+               
+                  
+              </div>
+          
+               
+            </div>
+           <!-- end seling -->
+              <!-- start expenses -->
+            <div class="expenses">
+                <logo class="material-symbols-sharp">trending_up</logo>
+                <div class="title_" id="nameprofit">
+                  Total Profit
+                </div>
+             <div class="number_"  id = "profitnum">
+                  
+             </div>
+                
+            </div>
+            <!-- end seling -->
+               <!-- start seling -->
+            <div class="income">
+                <logo class="material-symbols-sharp">percent</logo>
+                <div class="title_" id="namemargin">
+                  Margin
+                </div>
+             <div class="number_" id = "marginvalue">
+                  
+             </div>
+               
+            </div>
+            <!-- end seling -->
+            <!-- start seling -->
+            <div class="sales2">
+              <logo class="material-symbols-sharp" id = "totalorder">
+                shopping_cart_checkout
+                </logo>
+              <div class="title_" id = "nameorder">
+                Total orders
+              </div>
+           <div class="number_" id = "ordervalue">
+           </div>
+              
+            </div>
+           
+          <div class="sales2">
+            <logo class="material-symbols-sharp"id="avgd">local_shipping</logo>
+            <div class="title_" id="titleavg">
+              Average Delivery 
+            </div>
+         <div class="number_" id = "Avgday">
+              
+         </div>
+            
+          </div> 
+          <!-- end seling -->
+
+        </div>
+      
+
+
+      
+        
+      <div class="container2">
+         <div class="area1 chart">
+          <h4 id="Titlechart">Revenue Distribution Over Time by Product Category</h4>
+
+      
+          
+         </div>
+
+         <div class="area2 chart">
+          <h4 id="Titlechart">Profit Distribution Over Time by Product Category</h4>
+        
+        
+         </div> 
+
+         <div id="item">
+
+          
+          <div class="custom-select">
+            <button id= "reset">  <logo class="material-symbols-sharp"id="resetbt">
+              refresh
+            </logo></button> 
+            
+            
+          </div>
+          <div id="pie">
+            <h4 id="Titlechart">Revenue Contribution by Product Category</h4>
+
+          </div>
+
+          
+         </div>
+         <div class="row chart">
+          <h4 id="Titlechart"> Customer Segmentation </h4>
+          <div class = "scatterlegend">
+            <h4 id = "Homeicon"></h4>
+            <h4 id = "Home">Home Office</h4>
+            <h4 id = "Coporateicon"></h4>
+            <h4 id = "Coporate"> Coporate</h4>
+            <h4 id = "Customericon"></h4>
+            <h4 id = "Customer">Customer</h4>
+
+
+          </div>
+          
+         </div>
+         
+         
+        
+         <div class="row2">
+          
+          <h4 id="Titlechart">Regional Revenue Ranking Chart</h4>
+         
+         </div>
+
+          <div class="map" id='cluster-map'></div>
+          
+         </div>
+         
+      </div> 
+    
+      </main>
+      <!------------------
+         end main
+        ------------------->
+
+     
+      </div> 
+      
+
+      
+   </div>
+
+   
+
+        <script>
+          task();
+//           document.querySelector('#zoomarea1').onclick = () =>{
+//   document.querySelector('.popupchart').style.display='block';
+//   document.querySelector('main .container2 .map').style.display='none';
+//   document.querySelector('.popupchart .coppyarea1').style.display='block'
+
+// }
+// document.querySelector('#zoomarea2').onclick = () =>{
+//   document.querySelector('.popupchart').style.display='block';
+//   document.querySelector('main .container2 .map').style.display='none';
+//   document.querySelector('.popupchart .coppyarea2').style.display='block'
+
+// }
+// document.querySelector('#zoomrow').onclick = () =>{
+//   document.querySelector('.popupchart').style.display='block';
+//   document.querySelector('main .container2 .map').style.display='none';
+//   document.querySelector('.popupchart .coppyrow').style.display='block'
+
+// }
+// document.querySelector('#zoomrow2').onclick = () =>{
+//   document.querySelector('.popupchart').style.display='block';
+//   document.querySelector('main .container2 .map').style.display='none';
+//   document.querySelector('.popupchart .coppyrow2').style.display='block'
+
+// }
+
+//           document.querySelector('.popupchart> logo').onclick = () =>{
+//             document.querySelector('.popupchart .coppyarea1').style.display='none';
+//             document.querySelector('.popupchart .coppyarea2').style.display='none';         
+//             document.querySelector('.popupchart .coppyrow').style.display='none';         
+//             document.querySelector('.popupchart .coppyrow2').style.display='none';                  
+//   document.querySelector('.popupchart').style.display='none';
+//   document.querySelector('main .container2 .map').style.display='block';
+  
+
+//           }
+          
+        </script>
+        
+</body>
+</html>
