@@ -58,7 +58,7 @@ You can open the terminal on your IDE and clone the repo:
 ## III. Dashboard
 Here, I use PowerBI to create the draft of dashboard. The overall structure of dashboard seem like: 
 
-<img src="Source_Code\image\Dashboard_structure.png" width = 50 height = 30>
+<img src="Source_Code\image\Dashboard_structure.png" width = 500 height = 300>
 
 <a name="Charts"></a>
 ## IV. Charts
