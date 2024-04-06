@@ -112,7 +112,7 @@ b{
 }
 
 .danger {
-  color: var(--clr-danger);
+  color: var(--clr-dark);
 }
 
 .warning {
@@ -126,7 +126,7 @@ b{
   
  }
  aside .top{
-  background:#808fff;
+  background:rgb(30,144,255);
   display: flex;
   justify-content: space-between;
   margin-top: 1.4rem;
@@ -152,7 +152,7 @@ b{
  ================== */
 
   aside .sidebar{
-    background-image: linear-gradient(to bottom right, rgb(105, 98, 235), rgb(23, 9, 151));
+    background-image: linear-gradient(to bottom right, rgb(30,144,255), rgb(30,144,255));
   display: flex;
   flex-direction: column;
   height: 120vh;
@@ -223,12 +223,12 @@ gap: 20px;
  #tieude{
   text-align: center;
   
-  font-weight: 500;
-  background-image: linear-gradient(to bottom right, rgb(92, 81, 250), rgb(103, 11, 250));
-  width: 500px;
+  font-weight: 300;
+  background-image: linear-gradient(to bottom right, rgb(0,191,255), rgb(103, 11, 250));
+  width: 2000px;
   margin: auto;
   height: 100px;
-  border: 5px outset rgb(12, 15, 241);
+  border: 5px outset rgb(0,191,255);
   border-radius: 25px;
   margin-bottom: 65px;
  }
@@ -416,70 +416,6 @@ color:#080000
 main h1{
   color: var(--clr-dark);
 }
-/* main .insights h1{
-  color: var(--clr-dark);
-}
-main .insights h3{
-  color: var(--clr-dark);
-  font-size: 1.3rem;
-}
-main .insights p{
-  color: var(--clr-dark);
-}
-main .insights h3{
-  
-    color: var(--clr-dark);
-  
-  
-} */
-
-/* main .insights .progress{
-  position: relative;
-  height: 68px;
-  width: 68px;
-  border-radius: 50px;
-}
-
-main .insights svg{
-  height: 150px;
-  width: 150px;
-  position: absolute;
-  top: 0;
-}
-
-main .insights svg circle{
-  fill: none;
-  stroke: var(--clr-primary);
-   transform: rotate(270,80,80);
-   stroke-width: 5;
-}
-main .insights .sales svg circle{
-   stroke-dashoffset: 0;
-   stroke-dasharray: 150;
-}
-
-main .insights .expenses svg circle{
-  stroke-dashoffset: 10;
-  stroke-dasharray: 150;
-}
-main .insights .sales svg circle{
-  stroke-dashoffset: 0;
-  stroke-dasharray: 150;
-}
-main .insights .income svg circle{
-  stroke: var(--clr-success);
-}
-
-main .insights .progress .number{
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 
 main .container2{
@@ -504,11 +440,6 @@ main .container2>div{
   transition: all .4s ease;
   position: relative;
 }
-/* .chart {
-  background-color: #dddddd;
-  border: 3px solid grey;
-  min-height: 50px;
-} */
 
 main .container2 .area1 {
   background-color: #ffffff;
@@ -626,16 +557,11 @@ main .container2 .map{
   grid-column-end: 4;
   
 } 
-/* main .container2 .pie_product{
-  background-color: #ffffff;
-  border-radius: var(--card-border-radius);
-  
-  
-} */
+
 main .container2 .row2{
   background-color: #ffffff;
   border-radius: var(--card-border-radius);
-  /* margin-right: 100px; */
+  
   
 }
  .popupchart{

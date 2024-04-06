@@ -14,6 +14,11 @@
 [III. Dashboard](#Dashboard)
 
 [IV. Charts](#Charts)
+- [1. Pie chart ](#pie)
+- [2. Area chart](#area)
+- [3. Bubble chart](#bubble)
+- [4. Rank chart ](#rank)
+- [5. Geo Map ](#map)
 
 ===========================
 
@@ -27,15 +32,15 @@ That's when the power of data visualization becomes more useful and shines than 
 <a name="motivation"></a>
 ### 2. Motivation
 <ul>
-<li>		Cho thấy được sức mạnh của trực quan hóa dữ liệu </li>
-<li>		Áp dụng sức mạnh đó to implement the complex task in sale business </li>
+<li>		Showing the power of data visualization</li>
+<li>		Using this power to implement the complex task in sale business </li>
 </ul>
 
 <a name="goal"></a>
 ### 3. Goals
 <ul>
-<li>		Consolidating and supplementing knowledge learned in theory class about Data Science and Data Visualization. </li>
-<li>		Create a dynamic but comprehensive dashboard to display difficult-to-obtain views from numerical data. </li>
+<li>	Consolidating and supplementing knowledge learned in theory class about Data Science and Data Visualization. </li>
+<li>	Create a dynamic but comprehensive dashboard to display difficult-to-obtain views from numerical data. </li>
 <li>    Provide opportunities to access many tools for data visualization and web presentation. </li>
 <li>    Gain experience in project management and code refactoring processes. </li>
 </ul>
@@ -58,10 +63,32 @@ You can open the terminal on your IDE and clone the repo:
 ## III. Dashboard
 Here, I use PowerBI to create the draft of dashboard. The overall structure of dashboard seem like: 
 
-<img src="Source_Code\image\Dashboard_structure.png" width = 500 height = 300>
+<img src="Source_Code\image\Dashboard_structure.png" width = 800 height = 300>
 
 <a name="Charts"></a>
 ## IV. Charts
+
+<a name="pie"></a>
+### 1. Pie chart
+<ul>
+    <li> Abstract task for chart: Comparison of proportion and  general overview </li>
+    <li> Structure of pie chart: Mark(fraction of area of circles) & Channels (angle, color, label) </li>
+    <li> Interaction:
+        <ol>
+            <li>Hover information</li>
+            <li>Highlighting and selection</li>
+            <li>Cross - chart interactivy </li>
+            <li>Dynamic update</li>
+        </ol>
+    </li>
+</ul>
+
+<a name="area"></a>
+### 2. Area chart
+
+<a name="bubble"></a>
+### 3. Bubble chart
+
 
 
 
