@@ -67,9 +67,15 @@ Here, I use PowerBI to create the draft of dashboard. The overall structure of d
 
 <a name="Charts"></a>
 ## IV. Charts
+Here, there are the final result of the dashboard in the web which will be explain later. 
+
+<img src="Source_Code\image\Dashboard_result.png" width = 800 height = 300>
 
 <a name="pie"></a>
 ### 1. Pie chart
+
+<img src="Source_Code\image\PieChart.png" width = 800 height = 300>
+
 <ul>
     <li> Abstract task for chart: Comparison of proportion and  general overview </li>
     <li> Structure of pie chart: Mark(fraction of area of circles) & Channels (angle, color, label) </li>
@@ -85,10 +91,97 @@ Here, I use PowerBI to create the draft of dashboard. The overall structure of d
 
 <a name="area"></a>
 ### 2. Area chart
+<img src="Source_Code\image\AreaChart.png" width = 800 height = 300>
 
+<ul>
+    <li> Abstract task for chart: 
+        <ol>
+            <li>Comparing the sales performance of different product categories over time
+            </li>
+            <li>Ilustrating the changes over time </li>
+            <li>Cross - chart interactivy </li>
+            <li>Outlier Detection</li>
+        </ol>
+    </li>
+    <li> Structure of area chart: Mark(Area) & Channels (x-axis, y-axis, the color) </li>
+    <li> Interaction:
+        <ol>
+            <li>Linking and brushing</li>
+            <li> Transition</li>   
+            <li>Highlighting and selection</li>
+            <li>Cross - chart interactivy </li>
+            <li>Dynamic update</li>
+        </ol>
+    </li>
+</ul>
 <a name="bubble"></a>
 ### 3. Bubble chart
+<img src="Source_Code\image\BubbleChart.png" width = 800 height = 300>
 
+<ul>
+    <li> Abstract task for chart: 
+        <ol>
+            <li>Show correlation </li>
+            <li>Comparing data sets</li>
+            <li>Pattern Recognition</li>
+        </ol>
+    </li>
+    <li> Structure of bubble chart: Mark(Circle) & Channels (x-axis, y-axis, size, color) </li>
+    <li> Interaction:
+        <ol>
+           <li>Hover information</li>
+            <li>Highlighting and selection</li>
+            <li>Cross - chart interactivy </li>
+            <li> Transitions</li>
+            <li>Dynamic update</li>
+        </ol>
+    </li>
+</ul>
+<a name="rank"></a>
+### 4. Rank chart
+<img src="Source_Code\image\RankChart.png" width = 800 height = 300>
+
+<ul>
+    <li> Abstract task for chart: 
+        <ol>
+            <li>Performance Evaluation</li>
+            <li>Comparison of Rankings</li>
+        </ol>
+    </li>
+    <li> Structure of rank chart: Mark(Bars) & Channels (Position, length) </li>
+    <li> Interaction:
+        <ol>
+            <li>Hover information</li>
+            <li>Highlighting and selection</li>
+            <li>Cross - chart interactivy </li>
+            <li>Transitions</li>
+            <li>Dynamic update</li>
+            <li> Sorting options</li>
+        </ol>
+    </li>
+</ul>
+<a name="map"></a>
+### 5. Geomap 
+<img src="Source_Code\image\GeoMap.png" width = 800 height = 300>
+
+<ul>
+    <li> Abstract task for map: 
+        <ol>
+            <li>Provide an overview of Global Revenue </li>
+            <li>Spatial Distribution</li>
+            <li>Comparison Across Region</li>
+        </ol>
+    </li>
+    <li> Structure of map: Mark(Represents an individual point or region on the map) & Channels (Visual properties like position, color, icon, circle shape) </li>
+    <li> Interaction:
+        <ol>
+            <li>Semantic zooming</li>
+            <li>Panning</li>
+            <li>Cross - chart interactivy </li>
+            <li>Tooltip</li>
+        </ol>
+    </li>
+</ul>
 
 
 
