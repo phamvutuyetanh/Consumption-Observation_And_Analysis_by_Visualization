@@ -114,6 +114,7 @@ Here, there are the final result of the dashboard in the web which will be expla
         </ol>
     </li>
 </ul>
+
 <a name="bubble"></a>
 ### 3. Bubble chart
 <img src="Source_Code\image\BubbleChart.png" width = 800 height = 300>
@@ -137,6 +138,7 @@ Here, there are the final result of the dashboard in the web which will be expla
         </ol>
     </li>
 </ul>
+
 <a name="rank"></a>
 ### 4. Rank chart
 <img src="Source_Code\image\RankChart.png" width = 800 height = 300>
@@ -160,6 +162,7 @@ Here, there are the final result of the dashboard in the web which will be expla
         </ol>
     </li>
 </ul>
+
 <a name="map"></a>
 ### 5. Geomap 
 <img src="Source_Code\image\GeoMap.png" width = 800 height = 300>
